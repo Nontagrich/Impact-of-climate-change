@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Itim&family=Rubik+Marker+Hatch&display=swap');
+.photob {
+    margin: 0px;
+}
+.heal {
+    font-family: 'Itim', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+    animation: transitionIn1 1s;
+}
+body{
+    background: url(https://media.discordapp.net/attachments/920846680147001414/1019980775376031816/Untitled-3.jpg?width=317&height=662);
+    background-size: cover;
+    
+    
+}
+@keyframes transitionIn1 {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+
+    }
+}
+@keyframes moveleft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+@keyframes moveright {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.content1 {
+    font-family: 'Itim', cursive;
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 100px;
+    animation: moveleft 1s;
+    
+    
+}
+.pic1{
+    position: absolute;
+    left: 880px;
+    top: 250px;
+    width: 500px;
+    animation: moveright 1s;
+}
+.para1 {
+    margin-left: 100px;
+}
+.content2 {
+    font-family: 'Itim', cursive;
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 100px;
+    animation: moveleft 1s;
+    
+}
+.highlight {
+    font-family: 'Itim', cursive;
+    font-size: 30px;
+    color: rgb(242, 103, 155);
+    animation: moveleft 1s;
+}
+.content3 {
+    font-family: 'Itim', cursive;
+    font-size: 30px;
+    color: aliceblue;
+    animation: moveleft 1s;
+    text-align: center;
+    
+}
